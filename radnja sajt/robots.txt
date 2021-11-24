@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /Signup.html/
+Disallow: /slike/
+Disallow: /*.png$/
+
+Sitemap: https://github.com/kikinta/Vezbe-2/blob/main/radnja%20sajt/index.html/sitemap.xml

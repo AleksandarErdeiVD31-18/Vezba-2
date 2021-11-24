@@ -1,0 +1,172 @@
+html, body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+  }
+.nav-wrapper {
+    background: #ff416c;
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -moz-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -o-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+ }
+.social-container {
+    margin: 20px 0;
+}
+.social-container a {
+    color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+.left-side{
+    display: flex;
+    padding: 38px;
+    justify-content: left;
+    align-items: flex-start;
+ }
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+ } 
+
+.nav-wrapper > .left-side > div {
+    margin-left: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+ }
+.nav-link-wrapper a {
+    font-size: 20px;
+    color:#ee82ee;
+    text-decoration: none;
+    transition: color 0.5s;
+ } 
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid#FF0000;
+ }
+ 
+ .nav-link-wrapper a:hover {
+    color:#FF0000;
+ }
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    float:middle; 
+    text-align:center;
+    margin-right: 40px;
+ }
+.nav-link-wrapper-right {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link-wrapper-right a {
+    font-size: 20px;
+    color:#ee82ee;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link-wrapper-right:hover{
+    border-bottom: 1px solid #FF0000;
+} 
+.nav-link-wrapper-right a:hover{
+    color: red;
+}
+.nav-wrapper > .right-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+h1 {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.container1{
+    font-family: 'Montserrat', sans-serif;
+    background: #ff416c;
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -moz-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -o-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.slika1 {
+    width:600px; 
+    height:300px;
+    border-radius: 25%;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+.container2{
+    font-family: 'Montserrat', sans-serif;
+    background: #ff416c;
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -moz-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -o-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.slika2{
+    width:600px; 
+    height:300px;
+    border-radius: 30%;
+}
+.container3{
+    font-family: 'Montserrat', sans-serif;
+    background: #ff416c;
+    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -moz-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: -o-linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.slika3{
+    width:600px; 
+    height:300px;
+    border-radius: 60%;
+}
+hr {
+    width: 50%;
+    margin-left: 0;
+}
+a {
+    font-size: 14px;
+    text-decoration: none;
+}
+.text-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px
+    10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
